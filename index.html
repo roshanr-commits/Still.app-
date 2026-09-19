@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#F5F3EE" />
+  <title>Still — Less phone. More life.</title>
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/screens.css" />
+</head>
+<body data-theme="paper">
+  <div id="app">
+    <div class="stage" id="stage">
+      <div class="phone-frame" id="phoneFrame">
+        <div class="status-bar" id="statusBar">
+          <span class="sb-time" id="sbTime">9:41</span>
+          <div class="sb-right">
+            <svg class="sb-icon" viewBox="0 0 18 12" fill="none"><path d="M1 9h2v2H1zM5 7h2v4H5zM9 5h2v6H9zM13 3h2v8h-2z" fill="currentColor"/></svg>
+            <svg class="sb-icon" viewBox="0 0 16 12" fill="none"><path d="M8 2.5a10 10 0 0 1 7.07 2.93l-1.41 1.41A8 8 0 0 0 8 4.5a8 8 0 0 0-5.66 2.34L.93 5.43A10 10 0 0 1 8 2.5zm0 4a6 6 0 0 1 4.24 1.76l-1.41 1.41A4 4 0 0 0 8 8.5a4 4 0 0 0-2.83 1.17L3.76 8.26A6 6 0 0 1 8 6.5zm0 4a2 2 0 0 1 1.41.59L8 12.5l-1.41-1.41A2 2 0 0 1 8 10.5z" fill="currentColor"/></svg>
+            <svg class="sb-icon sb-battery" viewBox="0 0 26 12" fill="none"><rect x="0.5" y="0.5" width="22" height="11" rx="3" stroke="currentColor" stroke-opacity="0.4"/><rect x="2" y="2" width="16" height="8" rx="1.5" fill="currentColor"/><rect x="23.5" y="4" width="2" height="4" rx="1" fill="currentColor" fill-opacity="0.4"/></svg>
+          </div>
+        </div>
+        <div class="app-content" id="appContent"></div>
+        <div class="home-indicator"></div>
+      </div>
+      <div class="stage-caption">Still — best experienced on a phone.</div>
+    </div>
+    <div class="sheet-overlay" id="sheetOverlay"></div>
+    <div class="sheet-container" id="sheetContainer"></div>
+    <div class="toast-container" id="toastContainer"></div>
+  </div>
+
+  <script src="js/tokens.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/screens.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
